@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1F1F1
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 22vh 70vh 10vh 0vh;
+    grid-template-areas: "h h"
+        "m s"
+        "f  f";
+}
+
+header {
+    background: rgb(177, 100, 0);
+    grid-area: h
+}
+
+main {
+    background: rgb(0, 3, 177);
+    max-width: 100%;
+    grid-area: m
+}
+
+aside {
+    background: rgb(0, 196, 16);
+    max-width: 100%;
+    grid-area: s
+}
+
+footer {
+    background: rgb(196, 0, 0);
+    max-width: 100%;
+    grid-area: f
+}
+
+.foto {
+    float: left;
+    width: 300px;
+    height: auto;
+    max-width: 55%;
+    margin: 10px 10px
+}
+
+.foto1 {
+    float: left;
+    width: 300px;
+    height: auto;
+    max-width: 55%;
+    margin: 10px;
+    margin-left:30px 
+}
+
+.texto {
+    color: #F1F1F1;
+    text-align: justify;
+ 
+}
+
+.texto1 {
+    color: #F1F1F1;
+    text-align: justify;
+    
+}
