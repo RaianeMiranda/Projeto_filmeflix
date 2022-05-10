@@ -6,19 +6,16 @@ body {
     background-color: #F1F1F1
 }
 
-.logo {
+.align-logo {
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
 
-.logo1 {
-   margin-top: 15px;
-    width: 150px;
+.logo {
+    width: 12vw;
     height: auto;
-    max-width: 55%;
-    margin-bottom: 20px;
+    min-width: 8%;
+    margin-top: 20px;
 }
 
 p {
@@ -36,33 +33,32 @@ p {
     color: #E91D74;
 }
 
+.inform {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+
 hr {
     border: 1px solid #E91D74;
     background-color: #E91D74;
+    margin: 0;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1 7fr));
-    grid-template-rows: 40vh 70vh 10vh 0vh;
+    grid-template-rows: (auto-fit, minmax(200px, 1 7fr)) 70vh 10vh 0vh;
     grid-template-areas: "h h"
         "m s"
         "f f";
 }
 
-.cabecalho {
-    width: 100%;
-    float: center;
-    padding: 0;
-
-}
-
 header {
-    background: #b80000;
+    background: #F1F1F1;
     max-width: 100%;
-    min-width: 50%;
     height: auto;
-    grid-area: h
+    grid-area: h;
 }
 
 main {
@@ -81,13 +77,14 @@ aside {
 
 .foto {
     float: left;
-    width: 200px;
+    width: 150px;
     height: auto;
-    max-width: 30%;
-    min-width: 50%;
-    margin: 10px 10px
+    max-width: 20%;
+    min-width: 40%;
+    margin: 20px
 }
 
 h1 {
-    font-size: clamp(1vw, 1.5vw, 2vw);
+    font-size: clamp(1vw, 1.2vw, 1.5vw);
+    margin: 20px;
 }
