@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F1F1F1
+    background-color: #F1F1F1;
+    flex-wrap: wrap;
 }
 
 .align-logo {
@@ -12,7 +13,7 @@ body {
 
 
 .logo {
-    width: 12vw;
+    width: 7.9vw;
     height: auto;
     min-width: 8%;
     margin-top: 20px;
@@ -40,7 +41,7 @@ p {
 
 
 hr {
-    border: 1px solid #E91D74;
+    border: 2px solid #E91D74;
     background-color: #E91D74;
     margin: 0;
 }
@@ -48,7 +49,7 @@ hr {
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1 7fr));
-    grid-template-rows: (auto-fit, minmax(200px, 1 7fr)) 70vh 10vh 0vh;
+    grid-template-rows: (auto-fit, minmax( 1 7fr)) 70vh 10vh 0vh;
     grid-template-areas: "h h"
         "m s"
         "f f";
@@ -81,10 +82,48 @@ aside {
     height: auto;
     max-width: 20%;
     min-width: 40%;
-    margin: 20px
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.foto1 {
+    float: left;
+    width: 150px;
+    height: auto;
+    max-width: 20%;
+    min-width: 40%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 35px;
 }
 
 h1 {
     font-size: clamp(1vw, 1.2vw, 1.5vw);
-    margin: 20px;
+    margin: 15px;
+}
+
+h3 {
+    font-size: clamp(1vw, 2vw, 2.2vw);
+    margin-top: 2.0vw;
+}
+
+button {
+    background-color: #E91D74; 
+    border: none;
+    color: white;
+    padding: 0.5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.first {
+    margin-top: clamp(1vw, 2vw, 1.1vw);
+    
+}
+
+.cont{
+    margin-top: clamp(11vw, 12vw, 12vw);
 }
