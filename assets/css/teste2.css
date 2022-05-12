@@ -49,7 +49,7 @@ hr {
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1 7fr));
-    grid-template-rows: (auto-fit, minmax( 1 7fr)) 70vh 10vh 0vh;
+    grid-template-rows: (auto-fit, minmax(1 7fr)) 70vh 10vh 0vh;
     grid-template-areas: "h h"
         "m s"
         "f f";
@@ -84,19 +84,9 @@ aside {
     min-width: 40%;
     margin-right: 20px;
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 5vw;
 }
 
-.foto1 {
-    float: left;
-    width: 150px;
-    height: auto;
-    max-width: 20%;
-    min-width: 40%;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 35px;
-}
 
 h1 {
     font-size: clamp(1vw, 1.2vw, 1.5vw);
@@ -105,11 +95,28 @@ h1 {
 
 h3 {
     font-size: clamp(1vw, 2vw, 2.2vw);
-    margin-top: 2.0vw;
+    margin-top: 2.2vw;
+    margin-bottom: 1vw;
+}
+
+.destaque {
+    background-color: #E91D74;
+    padding: 0px;
+    border-radius: 50px;
+    width: 30vw;
+    margin-left: clamp(5vw, 5vw, 7vw);
+
+    
+}
+
+h4 {
+    font-size: clamp(1vw, 1.5vw, 2.2vw);
+    margin: 0.2vw;
+    margin-top: 0;
 }
 
 button {
-    background-color: #E91D74; 
+    background-color: #E91D74;
     border: none;
     color: white;
     padding: 0.5vw;
@@ -117,13 +124,15 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left:20px ;
+
 }
 
 .first {
     margin-top: clamp(1vw, 2vw, 1.1vw);
-    
+
 }
 
-.cont{
-    margin-top: clamp(11vw, 12vw, 12vw);
+.cont {
+    margin-top: clamp(5vw, 5vw, 7vw);
 }
