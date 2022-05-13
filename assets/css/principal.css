@@ -12,3 +12,17 @@ hr{
 	max-width:100%;
 	border:2px solid #E91d74;
 }
+h1{
+    text-align: center;
+    margin-block-start:0.1em;
+    margin-block-end: 0.1em;
+}
+h2{
+    margin-block-start:0.1em;
+    margin-block-end: 0.1em;
+    text-align:center;
+      
+  }
+  h3{
+      text-align: center;
+  }
