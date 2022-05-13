@@ -34,9 +34,10 @@ p {
 }
 
 .inform {
-    margin-top: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
-    margin-bottom: 0;
+    font-size: clamp(1vw, 2.5vw, 5vw)
 }
 
 
