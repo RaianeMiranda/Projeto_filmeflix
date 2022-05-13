@@ -38,8 +38,47 @@ img{
     flex-wrap: wrap;
     max-width:900px;
     margin: 0 auto;
+    gap: 0.2vw;
 }
 .flex > div {
     flex:1 1 200px;
     margin: 10px;
+}
+
+.foto {
+    width: 250px;
+    height: 350px;
+    border: 6px solid white;
+    box-shadow: 5px 5px 5px #0006;
+    transition: transform 1s linear;
+}
+
+.foto img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.foto:hover {
+    transform:scale(1.1) ;
+}
+
+footer {
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    margin: 100px;
+}
+
+button {
+    background-color: #da5390;
+    border: 5px solid #E91d74;
+    box-shadow: 5px 5px 5px #0006;
+    transition: transform 1s linear;
+    color: black;
+    padding: 0.5vw;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0.6vw;
+    font-size: clamp(1vw, 1.2vw, 2vw);
 }
