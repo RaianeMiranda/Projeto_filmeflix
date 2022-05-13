@@ -13,9 +13,8 @@ body {
 
 
 .logo {
-    width: 7.9vw;
+    width: clamp(5vw, 11vw, 13vw);
     height: auto;
-    min-width: 8%;
     margin-top: 20px;
 }
 
@@ -100,31 +99,35 @@ aside {
 
 .foto:hover {
     transform: scale(1.1);
-    
+
 }
 
 .espaco {
-   margin-top: 80px;
+    margin-top: 100px;
 }
 
 .espaco1 {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .espaco2 {
-   margin-top:100px ;
+    margin-top: 120px;
 }
 
 .espaco3 {
-    margin-top:150px ;
- }
+    margin-top: 160px;
+}
 
- .espaco4 {
-    margin-top:240px ;
- }
+.espaco4 {
+    margin-top: 200px;
+}
 
 .espaco-m {
-    margin-top: 130px;
+    margin-top: 300px;
+}
+
+.espaco-m1 {
+    margin-top: 250px;
 }
 
 h1 {
@@ -167,3 +170,21 @@ h4 {
     margin-top: 0;
 }
 
+
+footer {
+    height: 100px;
+    margin: 30px;
+    grid-area: f;
+}
+
+button {
+    background-color: #da5390;
+    border: 5px solid #E91D74;
+    box-shadow: 5px 5px 5px #0006;
+    color: black;
+    padding: 0.5vw;
+    text-align: center;
+    font-size: 16px;
+
+    font-size: clamp(1vw, 1.2vw, 2vw);
+}
