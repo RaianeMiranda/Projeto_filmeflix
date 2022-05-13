@@ -19,9 +19,15 @@ body {
     margin-top: 20px;
 }
 
+li {
+    font-size: clamp(1vw, 1.5vw, 2.5vw);
+    margin-left: 300px;
+}
+
 h1 {
     font-size: clamp(1vw, 1.5vw, 2.5vw);
-    margin-bottom: 250px;
+    margin-left: 25px;
+
 }
 
 h3 {
@@ -67,3 +73,5 @@ hr {
     height: 100%;
     object-fit: cover;
 }
+
+
