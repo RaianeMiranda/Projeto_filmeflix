@@ -2,7 +2,7 @@
     text-align: center;
     margin: auto;
     margin-top: 0;
-    width: clamp(10vw, 12vw, 13vw);
+    width: clamp(10vw, 13vw, 14vw);
     height: auto;
     text-align: center;
 }
@@ -51,18 +51,18 @@ img {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
-    gap: 2vw;
+    gap: 1vw;
 }
 
 .flex>div {
-    flex: 1 1 200px;
+    flex: 1 1 250px;
     margin: 10px;
 }
 
 .foto {
-    width: 650px;
+    width: 250px;
     height: 350px;
     border: 6px solid white;
     box-shadow: 5px 5px 5px #0006;
@@ -83,7 +83,7 @@ footer {
     height: 100px;
     justify-content: center;
     align-content: center;
-    margin-left: 395px;
+    margin-left: 305px;
     padding: 50px;
 }
 
@@ -96,7 +96,6 @@ button {
     padding: 0.5vw;
     text-align: center;
     font-size: 16px;
-    margin-left: 0.6vw;
     font-size: clamp(1vw, 1.2vw, 2vw);
 }
 
