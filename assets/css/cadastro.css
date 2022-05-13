@@ -1,0 +1,69 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1F1F1;
+    flex-wrap: wrap;
+}
+
+.align-logo {
+    text-align: center;
+}
+
+
+.logo {
+    width: 7.9vw;
+    height: auto;
+    min-width: 8%;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: clamp(1vw, 1.5vw, 2.5vw);
+    margin-bottom: 250px;
+}
+
+h3 {
+    font-size: clamp(1vw, 2.5vw, 5vw);
+}
+
+p {
+    font-size: clamp(1vw, 2.5vw, 5vw);
+}
+
+.titulo {
+    line-height: 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.anima {
+    color: #E91D74;
+}
+
+.inform {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+
+hr {
+    border: 2px solid #E91D74;
+    background-color: #E91D74;
+    margin: 0;
+}
+
+.foto {
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    float: left;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
