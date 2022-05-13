@@ -13,10 +13,11 @@ body {
 
 
 .logo {
-    width: clam(1vw,2vw, 1vw);
+    width: clamp(12vw, 15vw, 16vw);
     height: auto;
     min-width: 8%;
     margin-top: 20px;
+    margin-bottom: 0;
 }
 
 li {
@@ -39,6 +40,7 @@ h3 {
 
 p {
     font-size: clamp(1vw, 3vw, 5vw);
+    margin: 15px;
 }
 
 .titulo {
