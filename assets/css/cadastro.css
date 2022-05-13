@@ -13,7 +13,7 @@ body {
 
 
 .logo {
-    width: 7.9vw;
+    width: clam(1vw,2vw, 1vw);
     height: auto;
     min-width: 8%;
     margin-top: 20px;
@@ -27,6 +27,9 @@ li {
 h1 {
     font-size: clamp(1vw, 1.5vw, 2.5vw);
     margin-left: 25px;
+    width: 60em;
+    margin-bottom: 20px;
+    text-align: justify;
 
 }
 
@@ -35,7 +38,7 @@ h3 {
 }
 
 p {
-    font-size: clamp(1vw, 2.5vw, 5vw);
+    font-size: clamp(1vw, 3vw, 5vw);
 }
 
 .titulo {
@@ -50,8 +53,9 @@ p {
 }
 
 .inform {
-    margin-left: 10px;
+    margin-left: 12px;
     margin-bottom: 0;
+    font-size: clamp(1vw, 3vw, 5vw);
 }
 
 
@@ -75,3 +79,45 @@ hr {
 }
 
 
+footer {
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    margin: 50px;
+}
+
+
+.salvar {
+    background-color: #5bd151;
+    gap: 51vw;
+    border: 2px solid #23750e;
+    box-shadow: 5px 5px 5px #0006;
+    color: black;
+    padding: 0.5vw;
+    text-align: center;
+    font-size: clamp(1vw, 1.2vw, 2vw);
+    margin-left: 0;
+}
+
+.excluir {
+    background-color: #c75656;
+    border: 2px solid #881e1e;
+    box-shadow: 5px 5px 5px #0006;
+    color: black;
+    padding: 0.5vw;
+    text-align: center;
+    font-size: clamp(1vw, 1.2vw, 2vw);
+    margin-left: clamp(1vw, 1.5vw, 3vw);
+}
+
+
+.cancelar {
+    background-color: #bbc5ba;
+    border: 2px solid #4e4e4e;
+    box-shadow: 5px 5px 5px #0006;
+    color: black;
+    padding: 0.5vw;
+    text-align: center;
+    font-size: clamp(1vw, 1.2vw, 2vw);
+    margin-left: clamp(1vw, 3vw, 4vw);
+}
