@@ -2,53 +2,66 @@
     text-align: center;
     margin: auto;
     float: none;
-    width:clamp(10vw, 11vw, 12vw);
+    width: clamp(10vw, 11vw, 12vw);
     height: auto;
     text-align: center;
 }
-hr{
-	width:500;
-	max-width:100%;
-    border:2px solid #E91d74;
-    
+
+hr {
+    width: 500;
+    max-width: 100%;
+    border: 2px solid #E91d74;
+
 }
-h1{
+
+h1 {
     text-align: center;
-    margin-block-start:0.1em;
-    margin-block-end: 0.1em;
+    margin-top: 0;
+    margin-bottom: 20px
 }
-h2{
-    margin-block-start:0.1em;
-    margin-block-end: 0.1em;
-    text-align:center;
-    color:#E91d74;
-    font-size:clamp(1vw, 2.5vw, 5vw);
-      
-  }
-  h3{
-      text-align: center;
-  }
-  body{
+
+.anima {
+    color: #E91D74;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    font-size: clamp(1vw, 2.5vw, 5vw);
+
+}
+
+h3 {
+    text-align: center;
+    font-size: clamp(1vw, 1.2vw, 2vw)
+}
+
+body {
     background-color: #f1f1f1;
 }
-img{
+
+img {
     max-width: 100%;
-    display:block;
+    display: block;
 }
-.flex{
-    display:flex;
+
+.flex {
+    display: flex;
     flex-wrap: wrap;
-    max-width:900px;
+    max-width: 1000px;
     margin: 0 auto;
-    gap: 0.2vw;
+    gap: 2vw;
 }
-.flex > div {
-    flex:1 1 200px;
+
+.flex>div {
+    flex: 1 1 200px;
     margin: 10px;
 }
 
 .foto {
-    width: 250px;
+    width: 650px;
     height: 350px;
     border: 6px solid white;
     box-shadow: 5px 5px 5px #0006;
@@ -62,14 +75,15 @@ img{
 }
 
 .foto:hover {
-    transform:scale(1.1) ;
+    transform: scale(1.1);
 }
 
 footer {
     height: 100px;
     justify-content: center;
     align-content: center;
-    margin: 100px;
+    margin-left: 395px;
+    padding: 50px;
 }
 
 button {
@@ -83,4 +97,14 @@ button {
     font-size: 16px;
     margin-left: 0.6vw;
     font-size: clamp(1vw, 1.2vw, 2vw);
+}
+
+.destaque {
+    background-color: #eead2d;
+    border-radius: 50px;
+    width: clamp(30vw, 40vw, 55vw);
+    border: 0px solid white;
+    box-shadow: 5px 5px 5px #0006;
+    text-align: center;
+    transition: transform 1s linear
 }
